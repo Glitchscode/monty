@@ -4,7 +4,7 @@
  * initialize_arguments - Initializes a pointer to
  * arg_s structure.
  */
-void initialize_arguments()
+void initialize_arguments(void)
 {
 	arguments = malloc(sizeof(arg_t));
 	if (arguments == NULL)
